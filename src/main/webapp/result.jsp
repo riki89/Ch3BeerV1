@@ -12,7 +12,7 @@
             }
         --%>
         <c:forEach var = "style" items="${styles}">
-            <br> style
+            <br> ${style}
         </c:forEach>
     </body>
 </html>

@@ -7,13 +7,13 @@
 
     <tlib-version>1.0</tlib-version>
     <short-name>ct</short-name>
-    <uri>http://miu-wap.com/currentDateTime</uri>
+    <uri>http://java.sun.com/jsp/currDate</uri>
 
     <!-- Invoke 'Generate' action to add tags or functions -->
     <tag>
-        <description>Generates a label</description>
+        <description>Generates a Date</description>
         <name>currentDateTime</name>
-        <tag-class>com.example.Q2.CurrentDateTime</tag-class>
+        <tag-class>example.Q2.CurrentDateTime</tag-class>
         <body-content>empty</body-content>
         <attribute>
             <name>color</name>
